@@ -131,9 +131,9 @@ namespace MonitorVersion1
 
         #endregion
 
-        public static string _tailFileName;
-        public static string _midFileName; //Fix for Da nang
-        public static string tailDir;
+        string _tailFileName;
+        string _midFileName; //Fix for Da nang
+        string tailDir;
 
         #region Pre Name file 
         string _preNameCuongThinh = "HD_XMCT_KHILNX_"; //Cuong thinh
@@ -202,27 +202,25 @@ namespace MonitorVersion1
 
 
         //Tạo kết nối tới ftp server Vietmap Env
-        ftp myFtp = new ftp(@"ftp://bdenv.vietmapenv.com", "ftpuser", "User@EFPITI2020");
+        ftp myFtp = new ftp(@"ftp://bdenv.vietmapenv.com", "ftpuser", "xxxxxxxxx");
 
         ////Tao ket noi toi ftp Server Hai Duong - TC3
-        //ftp ftpTC3 = new ftp(@"ftp://113.160.129.20", "xmcuongthinh", "CTftp@xmkm");
+        //ftp ftpTC3 = new ftp(@"ftp://113.160.129.xx", "xxxxxxxxx", "xxxxxxxxx");
 
         ////
-        //ftp ftpAce = new ftp(@"ftp://113.160.222.47", "AcecookVN", "AcecookVN@2020!");
+        //ftp ftpAce = new ftp(@"ftp://113.160.222.xx", "AcecookVN", "xxxxxxxxxx");
 
         //////Tạo kết nối tới ftp server Hà Nam - XMHL
-        //ftp myFtpHL = new ftp(@"ftp://113.160.199.13", "xmhoanglong", "AmsHL@123");
+        //ftp myFtpHL = new ftp(@"ftp://113.160.199.xx", "xmhoanglong", "xxxxxxx");
 
         //////Tạo kết nối tới ftp server Vinh Phuc - NM2
-        //ftp myFtpNM2 = new ftp(@"ftp://113.160.148.113", "CTNM2", "nguyetminh2");
+        //ftp myFtpNM2 = new ftp(@"ftp://113.160.148.xx", "CTNM2", "xxxxxx");
 
 
         //Current number file on ftpServer
 
-
-        //int currentFile;
-        public static int currentFile;
-        public static int currentFileAcecook;
+        int currentFile;
+        int currentFileAcecook;
 
 
         public FormMain()
@@ -741,7 +739,7 @@ namespace MonitorVersion1
             //Acecook
             if (int.Parse(mm) % 15 == 0)
             {
-                ftp ftpAce = new ftp(@"ftp://113.160.222.47", "AcecookVN", "AcecookVN@2020!");
+                ftp ftpAce = new ftp(@"ftp://113.160.222.xx", "AcecookVN", "xxxxxxxxxx");
                 isCheckedAcecook1 = supportCheckAcecook(rootAcecook1, _preNameAce1, ftpAce);
                 isCheckedAcecook1 = supportCheckAcecook(rootAcecook2, _preNameAce2, ftpAce);
                 isCheckedAcecook1 = supportCheckAcecook(rootAcecook3, _preNameAce3, ftpAce);
@@ -796,7 +794,7 @@ namespace MonitorVersion1
         ////Check FTP Ha nam Hoang Long
         private void checkHL()
         {
-            ftp myFtpHL = new ftp(@"ftp://113.160.199.13", "xmhoanglong", "AmsHL@123");
+            ftp myFtpHL = new ftp(@"ftp://113.160.199.xx", "xmhoanglong", "xxxxxxxxx");
             //XM HOANG LONG
             isCheckedHL1 = supportCheckAll(rootHL1, _preNameHL1, myFtpHL);
             isCheckedHL2 = supportCheckAll(rootHL2, _preNameHL2, myFtpHL);
@@ -805,13 +803,7 @@ namespace MonitorVersion1
         }
 
 
-        ////Nguyet minh 2
-        //private void checkNM2()
-        //{
-        //    ftp myFtpNM2 = new ftp(@"ftp://113.160.148.113", "CTNM2", "nguyetminh2");
-        //    isCheckedNguyetMinh2 = supportCheckAll(rootNM2, _preNameNguyetMinh2, myFtpNM2);
-
-        //}
+        
 
         #endregion
 
@@ -1053,7 +1045,7 @@ namespace MonitorVersion1
         private void timer4_Tick(object sender, EventArgs e)
         {
             string fromUser = "vietmapenv.alarm@gmail.com";
-            string fromPass = "huyviet123";
+            string fromPass = "xxxxxxxx";
 
             string toUser = Alarm.toUser;
             email email1 = new email(fromUser, fromPass, toUser);
@@ -1145,6 +1137,10 @@ namespace MonitorVersion1
             txbNotyfiyShow(isCheckedTA2, "Thủy Anh - OK2", listNotiAlarm);
             txbNotyfiyShow(isCheckedTA3, "Thủy Anh - OK3", listNotiAlarm);
 
+            // Acecook
+            txbNotyfiyShow(isCheckedAcecook1, "Acecook - Giếng 1", listNotiAlarm);
+            txbNotyfiyShow(isCheckedAcecook2, "Acecook - Giếng 2", listNotiAlarm);
+            txbNotyfiyShow(isCheckedAcecook3, "Acecook - Giếng 3", listNotiAlarm);
 
             //Van Ninh
             txbNotyfiyShow(isCheckedVN1, "Vạn Ninh - Nung", listNotiAlarm);
@@ -1155,12 +1151,20 @@ namespace MonitorVersion1
             //XM HOANG LONG
             //bool isHL = FormMain.isCheckedHL1 && FormMain.isCheckedHL2 && FormMain.isCheckedHL3 && FormMain.isCheckedHL4;
             //runCheck(isHL, panelHL);
+            txbNotyfiyShow(isCheckedHL1, "XM Hoàng Long - Nung", listNotiAlarm);
+            txbNotyfiyShow(isCheckedHL2, "XM Hoàng Long - Ghi Lạnh", listNotiAlarm);
+            txbNotyfiyShow(isCheckedHL3, "XM Hoàng Long - Nghiền Than", listNotiAlarm);
+            txbNotyfiyShow(isCheckedHL4, "XM Hoàng Long - Nghiền Xi", listNotiAlarm);
+
+
             //XM TRUNG SON
             txbNotyfiyShow(isCheckedTS1, "XM Trung Sơn - Nung", listNotiAlarm);
             txbNotyfiyShow(isCheckedTS2, "XM Trung Sơn - Ghi Lạnh", listNotiAlarm);
             txbNotyfiyShow(isCheckedTS3, "XM Trung Sơn - Nghiền Than", listNotiAlarm);
             txbNotyfiyShow(isCheckedTS4, "XM Trung Sơn - Nghiền Xi", listNotiAlarm);
             //
+
+
             //listNoti.Add("\r\n ---------------------------------------------------------------- \r\n");
             //nKeNgang += 1;
             ////Thêm gạch này thì phải trừ đi khi tính số lượng thông báo!
