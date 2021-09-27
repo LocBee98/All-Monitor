@@ -1034,25 +1034,48 @@ namespace MonitorVersion1
 
 
         #region Email Alarm
-        
+
+        string userEmail1 = "";
+        string userEmail2 = "";
+        string userEmail3 = "";
+        bool enable1;
+        bool enable2;
+        bool enable3;
+        string cmbFreq;
         private void timer4_Tick(object sender, EventArgs e)
         {
 
 
             string fromUser = "vietmapenv.alarm@gmail.com";
             string fromPass = "xxxxxxxx";
-            string toUser = AlarmForm.userEmail1;
-            email email1 = new email(fromUser, fromPass, toUser);
-            string emailContents = "";
-            //Check Alarm.enabel first
+            string toUser1 = userEmail1;
+            string toUser2 = userEmail2;
+            string toUser3 = userEmail3;
 
-            if (DateTime.Now.Minute % 2 == 0 && DateTime.Now.Second == 0 && Alarm.enableSend)
+            email email1 = new email(fromUser, fromPass, toUser1);
+            email email2 = new email(fromUser, fromPass, toUser2);
+            email email3 = new email(fromUser, fromPass, toUser3);
+            string emailContents = "";
+            //Get setting
+            getSetting();
+
+            if (DateTime.Now.Minute % 2 == 0 && DateTime.Now.Second == 0)
             {
                 getNotifyToEmail();
                 emailContents = showList(listNotiAlarm);
 
-
-                email1.sendMessage(emailContents);
+                if (enable1)
+                {
+                    email1.sendMessage(emailContents);
+                }
+                if (enable2)
+                {
+                    email1.sendMessage(emailContents);
+                }
+                if (enable3)
+                {
+                    email1.sendMessage(emailContents);
+                }
 
                 listNotiAlarm.Clear();
 
@@ -1062,10 +1085,30 @@ namespace MonitorVersion1
             // 5p, 30 phut, 1h, 12h, 24h
             int freq = 2;//Test
 
+        }
+        private void getSetting()
+        {
+            string[] preSetting = new string[12];
+            ReadWriteTxt _getFile = new ReadWriteTxt();
+            preSetting = _getFile.readFile(@"txtSetting\appSetting.txt");
 
+            //Email
+            userEmail1 = preSetting[1];
+            userEmail2= preSetting[2];
+            userEmail3= preSetting[3];
+
+            //Enable
+
+            enable1 = Convert.ToBoolean(preSetting[5]);
+            enable2 = Convert.ToBoolean(preSetting[6]);
+            enable3 = Convert.ToBoolean(preSetting[7]);
+
+            //Freq
+            cmbFreq= preSetting[9];
 
 
         }
+
         public List<string> listNotiAlarm = new List<string>();
 
         private void getNotifyToEmail()

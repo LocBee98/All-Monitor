@@ -78,12 +78,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alarm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Alarm.Designer.cs">
-      <DependentUpon>Alarm.cs</DependentUpon>
-    </Compile>
     <Compile Include="AlarmForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,9 +126,6 @@
     <Compile Include="Stations.Designer.cs">
       <DependentUpon>Stations.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Alarm.resx">
-      <DependentUpon>Alarm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="AlarmForm.resx">
       <DependentUpon>AlarmForm.cs</DependentUpon>
     </EmbeddedResource>
