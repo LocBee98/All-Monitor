@@ -1034,22 +1034,15 @@ namespace MonitorVersion1
 
 
         #region Email Alarm
-        //static string fromUser = "vietmapenv.alarm@gmail.com";
-        //static string fromPass = "huyviet123";
-
-        //static string toUser = Alarm.toUser;
-        //email email1 = new email(fromUser, fromPass, toUser);
-
-        //string emailContents = "";
-
+        
         private void timer4_Tick(object sender, EventArgs e)
         {
+
+
             string fromUser = "vietmapenv.alarm@gmail.com";
             string fromPass = "xxxxxxxx";
-
-            string toUser = Alarm.toUser;
+            string toUser = AlarmForm.userEmail1;
             email email1 = new email(fromUser, fromPass, toUser);
-
             string emailContents = "";
             //Check Alarm.enabel first
 
