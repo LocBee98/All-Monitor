@@ -81,16 +81,17 @@ namespace AppMonitor
             btnEnable3.Checked = Convert.ToBoolean(preSetting[7]);
 
             //Freq
-            cmbFreq.Text = preSetting[9];
+            txbFreq.Texts = preSetting[9];
         }
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
             try
             {
-                string[] contents = { "1. User email", txbEmail1.Texts, txbEmail2.Texts, txbEmail3.Texts, "2. Enable", btnEnable1.Checked.ToString(), btnEnable2.Checked.ToString(), btnEnable3.Checked.ToString(), "3. Freq", cmbFreq.Text };
+                string[] contents = { "1. User email", txbEmail1.Texts, txbEmail2.Texts, txbEmail3.Texts, "2. Enable", btnEnable1.Checked.ToString(), btnEnable2.Checked.ToString(), btnEnable3.Checked.ToString(), "3. Freq", txbFreq.Texts };
                 ReadWriteTxt _writeFile = new ReadWriteTxt();
                 _writeFile.writeFile(@"txtSetting\appSetting.txt", contents);
+                MessageBox.Show("Change Successfully!", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
@@ -100,7 +101,8 @@ namespace AppMonitor
         private void btnCancel_Click(object sender, EventArgs e)
         {
             getSetting();
-            
+            MessageBox.Show("Change Successfully!", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
         }
     }
 }

@@ -241,9 +241,18 @@ namespace AppMonitor
             //Load Avatar
             string[] path = new string[2];
             ReadWriteTxt _getAvatar = new ReadWriteTxt();
-            path = _getAvatar.readFile(@"txtSetting\pathAvatar.txt");
-            picAvatar.Image = new Bitmap(path[1]);
-            
+            try
+            {
+                path = _getAvatar.readFile(@"txtSetting\pathAvatar.txt");
+                picAvatar.Image = new Bitmap(path[1]);
+            }
+            catch
+            {
+                picAvatar.Image = new Bitmap(@"txtSetting\avatar.png");
+
+            }
+
+
 
             #region Load Station Form
             // Open Form Monitor
@@ -1037,13 +1046,14 @@ namespace AppMonitor
         bool enable1;
         bool enable2;
         bool enable3;
-        string cmbFreq;
+        int iFreq;
+        string Freq;
         private void timer4_Tick(object sender, EventArgs e)
         {
 
 
             string fromUser = "vietmapenv.alarm@gmail.com";
-            string fromPass = "xxxxxxxx";
+            string fromPass = "huyviet123";
             string toUser1 = userEmail1;
             string toUser2 = userEmail2;
             string toUser3 = userEmail3;
@@ -1077,9 +1087,7 @@ namespace AppMonitor
 
             }
 
-            // Thiết lập thời gian gửi email cảnh báo
-            // 5p, 30 phut, 1h, 12h, 24h
-            int freq = 2;//Test
+            
 
         }
         private void getSetting()
@@ -1100,7 +1108,15 @@ namespace AppMonitor
             enable3 = Convert.ToBoolean(preSetting[7]);
 
             //Freq
-            cmbFreq= preSetting[9];
+            Freq = preSetting[9];
+            try
+            {
+                iFreq = int.Parse(Freq);
+            }
+            catch
+            {
+                iFreq = 60;// Dont send email
+            }
 
 
         }

@@ -155,10 +155,10 @@ namespace AppMonitor
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(24, 30);
+            this.label8.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(23, 30);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(155, 23);
+            this.label8.Size = new System.Drawing.Size(151, 22);
             this.label8.TabIndex = 0;
             this.label8.Text = "NGUYỆT MINH 2";
             // 
@@ -181,10 +181,10 @@ namespace AppMonitor
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(56, 29);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(94, 23);
+            this.label16.Size = new System.Drawing.Size(88, 22);
             this.label16.TabIndex = 0;
             this.label16.Text = "ARIYANA";
             // 
@@ -208,20 +208,20 @@ namespace AppMonitor
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.Location = new System.Drawing.Point(56, 38);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(91, 23);
+            this.label30.Size = new System.Drawing.Size(81, 22);
             this.label30.TabIndex = 0;
             this.label30.Text = " AN HÒA";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(78, 15);
+            this.label6.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(71, 15);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 23);
+            this.label6.Size = new System.Drawing.Size(51, 22);
             this.label6.TabIndex = 0;
             this.label6.Text = "GIẤY";
             // 
@@ -244,10 +244,10 @@ namespace AppMonitor
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(62, 29);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 23);
+            this.label7.Size = new System.Drawing.Size(79, 22);
             this.label7.TabIndex = 0;
             this.label7.Text = "SABECO";
             // 
@@ -271,20 +271,20 @@ namespace AppMonitor
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.Location = new System.Drawing.Point(19, 38);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(159, 23);
+            this.label29.Size = new System.Drawing.Size(147, 22);
             this.label29.TabIndex = 0;
             this.label29.Text = " THÀNH CÔNG 1";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(83, 15);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 23);
+            this.label5.Size = new System.Drawing.Size(38, 22);
             this.label5.TabIndex = 0;
             this.label5.Text = "XM";
             // 
@@ -307,10 +307,10 @@ namespace AppMonitor
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(50, 29);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(103, 23);
+            this.label15.Size = new System.Drawing.Size(107, 22);
             this.label15.TabIndex = 0;
             this.label15.Text = "MINH TIẾN";
             // 
@@ -334,20 +334,20 @@ namespace AppMonitor
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(42, 38);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(111, 23);
+            this.label28.Size = new System.Drawing.Size(113, 22);
             this.label28.TabIndex = 0;
             this.label28.Text = "MINH TUẤN";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(82, 15);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 23);
+            this.label4.Size = new System.Drawing.Size(42, 22);
             this.label4.TabIndex = 0;
             this.label4.Text = "XM ";
             // 
@@ -371,20 +371,20 @@ namespace AppMonitor
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(57, 40);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(106, 23);
+            this.label14.Size = new System.Drawing.Size(102, 22);
             this.label14.TabIndex = 0;
             this.label14.Text = "NAM ĐỊNH";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(80, 17);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(43, 23);
+            this.label13.Size = new System.Drawing.Size(43, 22);
             this.label13.TabIndex = 0;
             this.label13.Text = "ETC";
             // 
@@ -410,40 +410,40 @@ namespace AppMonitor
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(121, 67);
+            this.label51.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.Location = new System.Drawing.Point(130, 71);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(35, 40);
+            this.label51.Size = new System.Drawing.Size(37, 40);
             this.label51.TabIndex = 0;
             this.label51.Text = "2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(46, 20);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 23);
+            this.label3.Size = new System.Drawing.Size(120, 22);
             this.label3.TabIndex = 0;
             this.label3.Text = "XM PHÚ TÂN";
             // 
             // labelNumberPhuTan
             // 
             this.labelNumberPhuTan.AutoSize = true;
-            this.labelNumberPhuTan.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumberPhuTan.Location = new System.Drawing.Point(54, 50);
+            this.labelNumberPhuTan.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNumberPhuTan.Location = new System.Drawing.Point(63, 54);
             this.labelNumberPhuTan.Name = "labelNumberPhuTan";
-            this.labelNumberPhuTan.Size = new System.Drawing.Size(35, 40);
+            this.labelNumberPhuTan.Size = new System.Drawing.Size(37, 40);
             this.labelNumberPhuTan.TabIndex = 0;
             this.labelNumberPhuTan.Text = "2";
             // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Century Gothic", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(85, 43);
+            this.label50.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.Location = new System.Drawing.Point(98, 54);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(47, 58);
+            this.label50.Size = new System.Drawing.Size(34, 40);
             this.label50.TabIndex = 0;
             this.label50.Text = "/";
             // 
@@ -467,20 +467,20 @@ namespace AppMonitor
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(38, 40);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(120, 23);
+            this.label11.Size = new System.Drawing.Size(115, 22);
             this.label11.TabIndex = 1;
             this.label11.Text = "MINH DŨNG";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(61, 17);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(70, 23);
+            this.label12.Size = new System.Drawing.Size(66, 22);
             this.label12.TabIndex = 2;
             this.label12.Text = "NHÔM";
             // 
@@ -497,7 +497,7 @@ namespace AppMonitor
             this.panelTA.Controls.Add(this.labelThuyAnh);
             this.panelTA.Controls.Add(this.label52);
             this.panelTA.ForeColor = System.Drawing.Color.White;
-            this.panelTA.Location = new System.Drawing.Point(984, 346);
+            this.panelTA.Location = new System.Drawing.Point(1027, 346);
             this.panelTA.Name = "panelTA";
             this.panelTA.Size = new System.Drawing.Size(220, 120);
             this.panelTA.TabIndex = 0;
@@ -506,40 +506,40 @@ namespace AppMonitor
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(125, 67);
+            this.label53.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.Location = new System.Drawing.Point(134, 71);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(35, 40);
+            this.label53.Size = new System.Drawing.Size(37, 40);
             this.label53.TabIndex = 0;
             this.label53.Text = "3";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(44, 21);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(138, 23);
+            this.label20.Size = new System.Drawing.Size(136, 22);
             this.label20.TabIndex = 0;
             this.label20.Text = "NM THỦY ANH";
             // 
             // labelThuyAnh
             // 
             this.labelThuyAnh.AutoSize = true;
-            this.labelThuyAnh.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelThuyAnh.Location = new System.Drawing.Point(58, 50);
+            this.labelThuyAnh.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelThuyAnh.Location = new System.Drawing.Point(67, 54);
             this.labelThuyAnh.Name = "labelThuyAnh";
-            this.labelThuyAnh.Size = new System.Drawing.Size(35, 40);
+            this.labelThuyAnh.Size = new System.Drawing.Size(37, 40);
             this.labelThuyAnh.TabIndex = 0;
             this.labelThuyAnh.Text = "3";
             // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Century Gothic", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(89, 43);
+            this.label52.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.Location = new System.Drawing.Point(102, 57);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(47, 58);
+            this.label52.Size = new System.Drawing.Size(34, 40);
             this.label52.TabIndex = 0;
             this.label52.Text = "/";
             // 
@@ -556,49 +556,49 @@ namespace AppMonitor
             this.panelAcecook.Controls.Add(this.label54);
             this.panelAcecook.Controls.Add(this.labelNumberAcecook);
             this.panelAcecook.ForeColor = System.Drawing.Color.White;
-            this.panelAcecook.Location = new System.Drawing.Point(1227, 345);
+            this.panelAcecook.Location = new System.Drawing.Point(1270, 346);
             this.panelAcecook.Name = "panelAcecook";
-            this.panelAcecook.Size = new System.Drawing.Size(300, 120);
+            this.panelAcecook.Size = new System.Drawing.Size(262, 120);
             this.panelAcecook.TabIndex = 0;
             this.panelAcecook.TextColor = System.Drawing.Color.White;
             // 
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(159, 69);
+            this.label56.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Location = new System.Drawing.Point(153, 73);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(35, 40);
+            this.label56.Size = new System.Drawing.Size(37, 40);
             this.label56.TabIndex = 0;
             this.label56.Text = "3";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(43, 21);
+            this.label21.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(36, 21);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(210, 23);
+            this.label21.Size = new System.Drawing.Size(191, 22);
             this.label21.TabIndex = 0;
             this.label21.Text = "ACECOOK HƯNG YÊN";
             // 
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Century Gothic", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(123, 45);
+            this.label54.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(120, 60);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(47, 58);
+            this.label54.Size = new System.Drawing.Size(34, 40);
             this.label54.TabIndex = 0;
             this.label54.Text = "/";
             // 
             // labelNumberAcecook
             // 
             this.labelNumberAcecook.AutoSize = true;
-            this.labelNumberAcecook.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumberAcecook.Location = new System.Drawing.Point(92, 52);
+            this.labelNumberAcecook.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNumberAcecook.Location = new System.Drawing.Point(86, 56);
             this.labelNumberAcecook.Name = "labelNumberAcecook";
-            this.labelNumberAcecook.Size = new System.Drawing.Size(35, 40);
+            this.labelNumberAcecook.Size = new System.Drawing.Size(37, 40);
             this.labelNumberAcecook.TabIndex = 0;
             this.labelNumberAcecook.Text = "0";
             // 
@@ -617,47 +617,47 @@ namespace AppMonitor
             this.panelTC3.ForeColor = System.Drawing.Color.White;
             this.panelTC3.Location = new System.Drawing.Point(741, 346);
             this.panelTC3.Name = "panelTC3";
-            this.panelTC3.Size = new System.Drawing.Size(220, 120);
+            this.panelTC3.Size = new System.Drawing.Size(263, 120);
             this.panelTC3.TabIndex = 0;
             this.panelTC3.TextColor = System.Drawing.Color.White;
             // 
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(112, 66);
+            this.label42.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(147, 70);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(35, 40);
+            this.label42.Size = new System.Drawing.Size(37, 40);
             this.label42.TabIndex = 0;
             this.label42.Text = "2";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(14, 21);
+            this.label19.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(46, 21);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(189, 23);
+            this.label19.Size = new System.Drawing.Size(175, 22);
             this.label19.TabIndex = 0;
             this.label19.Text = "XM THÀNH CÔNG 3";
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Century Gothic", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(76, 42);
+            this.label38.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(114, 56);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(47, 58);
+            this.label38.Size = new System.Drawing.Size(34, 40);
             this.label38.TabIndex = 0;
             this.label38.Text = "/";
             // 
             // labelNumberTC3
             // 
             this.labelNumberTC3.AutoSize = true;
-            this.labelNumberTC3.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumberTC3.Location = new System.Drawing.Point(45, 49);
+            this.labelNumberTC3.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNumberTC3.Location = new System.Drawing.Point(80, 53);
             this.labelNumberTC3.Name = "labelNumberTC3";
-            this.labelNumberTC3.Size = new System.Drawing.Size(35, 40);
+            this.labelNumberTC3.Size = new System.Drawing.Size(37, 40);
             this.labelNumberTC3.TabIndex = 0;
             this.labelNumberTC3.Text = "2";
             // 
@@ -683,40 +683,40 @@ namespace AppMonitor
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(110, 68);
+            this.label33.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(119, 72);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(35, 40);
+            this.label33.Size = new System.Drawing.Size(37, 40);
             this.label33.TabIndex = 0;
             this.label33.Text = "2";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(46, 21);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(117, 23);
+            this.label18.Size = new System.Drawing.Size(113, 22);
             this.label18.TabIndex = 0;
             this.label18.Text = "XM SÀI SƠN";
             // 
             // labelNumberSaiSon
             // 
             this.labelNumberSaiSon.AutoSize = true;
-            this.labelNumberSaiSon.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumberSaiSon.Location = new System.Drawing.Point(43, 51);
+            this.labelNumberSaiSon.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNumberSaiSon.Location = new System.Drawing.Point(52, 55);
             this.labelNumberSaiSon.Name = "labelNumberSaiSon";
-            this.labelNumberSaiSon.Size = new System.Drawing.Size(35, 40);
+            this.labelNumberSaiSon.Size = new System.Drawing.Size(37, 40);
             this.labelNumberSaiSon.TabIndex = 0;
             this.labelNumberSaiSon.Text = "2";
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(74, 44);
+            this.label31.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(87, 57);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(47, 58);
+            this.label31.Size = new System.Drawing.Size(34, 40);
             this.label31.TabIndex = 0;
             this.label31.Text = "/";
             // 
@@ -742,40 +742,40 @@ namespace AppMonitor
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.Location = new System.Drawing.Point(220, 65);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(35, 40);
+            this.label48.Size = new System.Drawing.Size(37, 40);
             this.label48.TabIndex = 0;
             this.label48.Text = "4";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(116, 13);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(177, 23);
+            this.label25.Size = new System.Drawing.Size(157, 22);
             this.label25.TabIndex = 0;
             this.label25.Text = "XM HOÀNG LONG";
             // 
             // labelNumberHL
             // 
             this.labelNumberHL.AutoSize = true;
-            this.labelNumberHL.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNumberHL.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNumberHL.Location = new System.Drawing.Point(153, 48);
             this.labelNumberHL.Name = "labelNumberHL";
-            this.labelNumberHL.Size = new System.Drawing.Size(35, 40);
+            this.labelNumberHL.Size = new System.Drawing.Size(37, 40);
             this.labelNumberHL.TabIndex = 0;
             this.labelNumberHL.Text = "4";
             // 
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(184, 41);
+            this.label35.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(191, 52);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(47, 58);
+            this.label35.Size = new System.Drawing.Size(34, 40);
             this.label35.TabIndex = 0;
             this.label35.Text = "/";
             // 
@@ -801,40 +801,40 @@ namespace AppMonitor
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(214, 65);
+            this.label45.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(220, 65);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(35, 40);
+            this.label45.Size = new System.Drawing.Size(37, 40);
             this.label45.TabIndex = 0;
             this.label45.Text = "4";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(130, 13);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(150, 23);
+            this.label23.Size = new System.Drawing.Size(146, 22);
             this.label23.TabIndex = 0;
             this.label23.Text = "XM TRUNG SƠN";
             // 
             // labelNumberTS
             // 
             this.labelNumberTS.AutoSize = true;
-            this.labelNumberTS.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNumberTS.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNumberTS.Location = new System.Drawing.Point(147, 48);
             this.labelNumberTS.Name = "labelNumberTS";
-            this.labelNumberTS.Size = new System.Drawing.Size(35, 40);
+            this.labelNumberTS.Size = new System.Drawing.Size(37, 40);
             this.labelNumberTS.TabIndex = 0;
             this.labelNumberTS.Text = "4";
             // 
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Century Gothic", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(178, 41);
+            this.label44.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(185, 52);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(47, 58);
+            this.label44.Size = new System.Drawing.Size(34, 40);
             this.label44.TabIndex = 0;
             this.label44.Text = "/";
             // 
@@ -860,40 +860,40 @@ namespace AppMonitor
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(188, 65);
+            this.label46.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(197, 65);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(35, 40);
+            this.label46.Size = new System.Drawing.Size(37, 40);
             this.label46.TabIndex = 0;
             this.label46.Text = "4";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(91, 13);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(200, 23);
+            this.label22.Size = new System.Drawing.Size(189, 22);
             this.label22.TabIndex = 0;
             this.label22.Text = "XM VICEM VẠN NINH";
             // 
             // labelNumberVN
             // 
             this.labelNumberVN.AutoSize = true;
-            this.labelNumberVN.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNumberVN.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNumberVN.Location = new System.Drawing.Point(121, 48);
             this.labelNumberVN.Name = "labelNumberVN";
-            this.labelNumberVN.Size = new System.Drawing.Size(35, 40);
+            this.labelNumberVN.Size = new System.Drawing.Size(37, 40);
             this.labelNumberVN.TabIndex = 0;
             this.labelNumberVN.Text = "4";
             // 
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(152, 41);
+            this.label36.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(162, 52);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(47, 58);
+            this.label36.Size = new System.Drawing.Size(34, 40);
             this.label36.TabIndex = 0;
             this.label36.Text = "/";
             // 
@@ -919,40 +919,40 @@ namespace AppMonitor
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(114, 68);
+            this.label40.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(123, 72);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(35, 40);
+            this.label40.Size = new System.Drawing.Size(37, 40);
             this.label40.TabIndex = 0;
             this.label40.Text = "2";
             // 
             // labelNumberHV
             // 
             this.labelNumberHV.AutoSize = true;
-            this.labelNumberHV.Font = new System.Drawing.Font("Century Gothic", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumberHV.Location = new System.Drawing.Point(47, 51);
+            this.labelNumberHV.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNumberHV.Location = new System.Drawing.Point(56, 55);
             this.labelNumberHV.Name = "labelNumberHV";
-            this.labelNumberHV.Size = new System.Drawing.Size(35, 40);
+            this.labelNumberHV.Size = new System.Drawing.Size(37, 40);
             this.labelNumberHV.TabIndex = 0;
             this.labelNumberHV.Text = "2";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Century Gothic", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(78, 44);
+            this.label27.Font = new System.Drawing.Font("Cambria", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(91, 56);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(47, 58);
+            this.label27.Size = new System.Drawing.Size(34, 40);
             this.label27.TabIndex = 0;
             this.label27.Text = "/";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(30, 21);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(151, 23);
+            this.label17.Size = new System.Drawing.Size(143, 22);
             this.label17.TabIndex = 0;
             this.label17.Text = "VICEM HẢI VÂN";
             // 
@@ -976,20 +976,20 @@ namespace AppMonitor
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(29, 40);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(142, 23);
+            this.label9.Size = new System.Drawing.Size(137, 22);
             this.label9.TabIndex = 1;
             this.label9.Text = " CHIẾN THẮNG";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(61, 17);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 23);
+            this.label10.Size = new System.Drawing.Size(66, 22);
             this.label10.TabIndex = 2;
             this.label10.Text = "NHÔM";
             // 
@@ -1014,10 +1014,10 @@ namespace AppMonitor
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(38, 38);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(140, 23);
+            this.label26.Size = new System.Drawing.Size(140, 22);
             this.label26.TabIndex = 0;
             this.label26.Text = "CƯỜNG THỊNH";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1025,10 +1025,10 @@ namespace AppMonitor
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(80, 15);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 23);
+            this.label2.Size = new System.Drawing.Size(38, 22);
             this.label2.TabIndex = 0;
             this.label2.Text = "XM";
             // 
@@ -1053,20 +1053,20 @@ namespace AppMonitor
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(40, 38);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(117, 23);
+            this.label24.Size = new System.Drawing.Size(119, 22);
             this.label24.TabIndex = 0;
             this.label24.Text = "DUYÊN LINH";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(74, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 23);
+            this.label1.Size = new System.Drawing.Size(38, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "XM";
             // 

@@ -1,0 +1,4 @@
+Copy Folder
+"txtSetting" 
+into
+"C:\Program Files (x86)\VietmapEnv\Monitor-setup"

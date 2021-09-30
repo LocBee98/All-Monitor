@@ -45,7 +45,7 @@ namespace AppMonitor
             this.customPanel1 = new AppMonitor.CustemItems.CustomPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.txbEmail1 = new AppMonitor.CustomItems.customTextBox1();
-            this.cmbFreq = new System.Windows.Forms.ComboBox();
+            this.txbFreq = new AppMonitor.CustomItems.customTextBox1();
             this.customPanel4.SuspendLayout();
             this.customPanel3.SuspendLayout();
             this.customPanel2.SuspendLayout();
@@ -321,14 +321,28 @@ namespace AppMonitor
             this.txbEmail1.Texts = "";
             this.txbEmail1.UnderlinedStyle = false;
             // 
-            // cmbFreq
+            // txbFreq
             // 
-            this.cmbFreq.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cmbFreq.FormattingEnabled = true;
-            this.cmbFreq.Location = new System.Drawing.Point(413, 450);
-            this.cmbFreq.Name = "cmbFreq";
-            this.cmbFreq.Size = new System.Drawing.Size(121, 24);
-            this.cmbFreq.TabIndex = 14;
+            this.txbFreq.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txbFreq.BackColor = System.Drawing.SystemColors.Window;
+            this.txbFreq.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(198)))), ((int)(((byte)(66)))));
+            this.txbFreq.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(71)))), ((int)(((byte)(43)))));
+            this.txbFreq.BorderRadius = 8;
+            this.txbFreq.BorderSize = 2;
+            this.txbFreq.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbFreq.ForeColor = System.Drawing.Color.Black;
+            this.txbFreq.Location = new System.Drawing.Point(413, 430);
+            this.txbFreq.Multiline = true;
+            this.txbFreq.Name = "txbFreq";
+            this.txbFreq.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.txbFreq.PasswordChar = false;
+            this.txbFreq.PlaceholderColor = System.Drawing.Color.IndianRed;
+            this.txbFreq.PlaceholderText = "Username";
+            this.txbFreq.Size = new System.Drawing.Size(536, 52);
+            this.txbFreq.TabIndex = 10;
+            this.txbFreq.TabStop = false;
+            this.txbFreq.Texts = "";
+            this.txbFreq.UnderlinedStyle = false;
             // 
             // AlarmForm
             // 
@@ -336,11 +350,11 @@ namespace AppMonitor
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1308, 615);
-            this.Controls.Add(this.cmbFreq);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnEnable3);
             this.Controls.Add(this.customPanel4);
             this.Controls.Add(this.customPanel3);
+            this.Controls.Add(this.txbFreq);
             this.Controls.Add(this.txbEmail3);
             this.Controls.Add(this.btnEnable2);
             this.Controls.Add(this.customPanel2);
@@ -383,6 +397,6 @@ namespace AppMonitor
         private CustemItems.CustomPanel customPanel4;
         private System.Windows.Forms.Label label5;
         private CustemItems.CustomButton btnCancel;
-        private System.Windows.Forms.ComboBox cmbFreq;
+        private CustomItems.customTextBox1 txbFreq;
     }
 }
