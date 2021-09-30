@@ -202,13 +202,13 @@ namespace MonitorVersion1
 
 
         //Tạo kết nối tới ftp server Vietmap Env
-        ftp myFtp = new ftp(@"ftp://bdenv.vietmapenv.com", "ftpuser", "xxxxxxxxx");
+        ftp myFtp = new ftp(@"ftp://bdenv.vietmapenv.com", "ftpuser", "User@EFPITI2020");
 
-        ////Tao ket noi toi ftp Server Hai Duong - TC3
-        //ftp ftpTC3 = new ftp(@"ftp://113.160.129.xx", "xxxxxxxxx", "xxxxxxxxx");
+        
 
-        ////
-        //ftp ftpAce = new ftp(@"ftp://113.160.222.xx", "AcecookVN", "xxxxxxxxxx");
+        //// Acecook
+        ftp ftpAce = new ftp(@"ftp://113.160.222.47", "AcecookVN", "AcecookVN@2020!");
+
 
         //////Tạo kết nối tới ftp server Hà Nam - XMHL
         //ftp myFtpHL = new ftp(@"ftp://113.160.199.xx", "xmhoanglong", "xxxxxxx");
@@ -216,6 +216,8 @@ namespace MonitorVersion1
         //////Tạo kết nối tới ftp server Vinh Phuc - NM2
         //ftp myFtpNM2 = new ftp(@"ftp://113.160.148.xx", "CTNM2", "xxxxxx");
 
+        ////Tao ket noi toi ftp Server Hai Duong - TC3
+        //ftp ftpTC3 = new ftp(@"ftp://113.160.129.xx", "xxxxxxxxx", "xxxxxxxxx");
 
         //Current number file on ftpServer
 
@@ -653,7 +655,7 @@ namespace MonitorVersion1
             isCheckedTS4 = supportCheckAll(rootTS4, _preNameTS4, myFtp);
 
             checkAcecook();
-            checkHL();
+            //checkHL();
 
             ////Nguyet Minh 2
             //isCheckedNguyetMinh2 = supportCheckAll(rootNM2, _preNameNguyetMinh2, myFtpNM2);
@@ -728,24 +730,12 @@ namespace MonitorVersion1
             return isChecked;
         }
 
-
-        // Checking FTP Server Hai Duong
-        //private void checkTC3()
-        //{
-        //    ftp ftpTC3 = new ftp(@"ftp://113.160.129.20", "xmcuongthinh", "CTftp@xmkm");
-
-        //    //Thanh Cong 3
-        //    isCheckedTC31 = supportCheckAll(rootTC31, _preNameTC31, ftpTC3);
-        //    isCheckedTC32 = supportCheckAll(rootTC32, _preNameTC32, ftpTC3);
-        //}
-
         ////Checking FTP Server Hung Yen
         private void checkAcecook()
         {
             //Acecook
             if (int.Parse(mm) % 15 == 0)
             {
-                ftp ftpAce = new ftp(@"ftp://113.160.222.xx", "AcecookVN", "xxxxxxxxxx");
                 isCheckedAcecook1 = supportCheckAcecook(rootAcecook1, _preNameAce1, ftpAce);
                 isCheckedAcecook1 = supportCheckAcecook(rootAcecook2, _preNameAce2, ftpAce);
                 isCheckedAcecook1 = supportCheckAcecook(rootAcecook3, _preNameAce3, ftpAce);
@@ -1226,18 +1216,20 @@ namespace MonitorVersion1
             // open file dialog   
             OpenFileDialog open = new OpenFileDialog();
             // image filters  
-            open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
+            open.Filter = "Image Files(*.jpg; *.png; *.jpeg; *.gif; *.bmp)|*.jpg; *.png; *.jpeg; *.gif; *.bmp";
             if (open.ShowDialog() == DialogResult.OK)
             {
                 // display image in picture box  
                 picAvatar.Image = new Bitmap(open.FileName);
+                string[] pathAvatar = { "path:", open.FileName };
+                ReadWriteTxt _writeFile = new ReadWriteTxt();
+                _writeFile.writeFile(@"txtSetting\pathAvatar.txt", pathAvatar);
 
             }
-            string[] pathAvatar = { "path:", open.FileName };
-            ReadWriteTxt _writeFile = new ReadWriteTxt();
-            _writeFile.writeFile(@"txtSetting\pathAvatar.txt", pathAvatar);
+            
+
+
         }
-        #endregion
 
         private void changeAvatar_MouseMove(object sender, MouseEventArgs e)
         {
@@ -1249,6 +1241,9 @@ namespace MonitorVersion1
             this.changeAvatar.BackColor = Color.FromArgb(139, 194, 64);
 
         }
+        #endregion
+
+
     }
 }
 
