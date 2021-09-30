@@ -659,7 +659,7 @@ namespace MonitorVersion1
             this.labelNumberTC3.Name = "labelNumberTC3";
             this.labelNumberTC3.Size = new System.Drawing.Size(35, 40);
             this.labelNumberTC3.TabIndex = 0;
-            this.labelNumberTC3.Text = "0";
+            this.labelNumberTC3.Text = "2";
             // 
             // panelSaiSon
             // 
@@ -767,7 +767,7 @@ namespace MonitorVersion1
             this.labelNumberHL.Name = "labelNumberHL";
             this.labelNumberHL.Size = new System.Drawing.Size(35, 40);
             this.labelNumberHL.TabIndex = 0;
-            this.labelNumberHL.Text = "0";
+            this.labelNumberHL.Text = "4";
             // 
             // label35
             // 

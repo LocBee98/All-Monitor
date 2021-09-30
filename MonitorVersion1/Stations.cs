@@ -157,10 +157,10 @@ namespace MonitorVersion1
             bool isVN = FormMain.isCheckedVN1 && FormMain.isCheckedVN2 && FormMain.isCheckedVN3 && FormMain.isCheckedVN4;
             runCheck(isVN, panelVN);
             _VN = checkCount(isVN);
-            //XM HOANG LONG
-            bool isHL = FormMain.isCheckedHL1 && FormMain.isCheckedHL2 && FormMain.isCheckedHL3 && FormMain.isCheckedHL4;
-            runCheck(isHL, panelHL);
-            _HL = checkCount(isHL);
+            ////XM HOANG LONG
+            //bool isHL = FormMain.isCheckedHL1 && FormMain.isCheckedHL2 && FormMain.isCheckedHL3 && FormMain.isCheckedHL4;
+            //runCheck(isHL, panelHL);
+            //_HL = checkCount(isHL);
             //XM TRUNG SON
             bool isTS = FormMain.isCheckedTS1 && FormMain.isCheckedTS2 && FormMain.isCheckedTS3 && FormMain.isCheckedTS4;
             runCheck(isTS, panelTS);
@@ -232,13 +232,13 @@ namespace MonitorVersion1
             //Passing to Main Form
 
 
-            //XM HOANG LONG
-            HL1 = checkCount(FormMain.isCheckedHL1);
-            HL2 = checkCount(FormMain.isCheckedHL2);
-            HL3 = checkCount(FormMain.isCheckedHL3);
-            HL4 = checkCount(FormMain.isCheckedHL4);
-            HL = HL1 + HL2 + HL3 + HL4;
-            labelNumberHL.Text = HL.ToString();
+            ////XM HOANG LONG
+            //HL1 = checkCount(FormMain.isCheckedHL1);
+            //HL2 = checkCount(FormMain.isCheckedHL2);
+            //HL3 = checkCount(FormMain.isCheckedHL3);
+            //HL4 = checkCount(FormMain.isCheckedHL4);
+            //HL = HL1 + HL2 + HL3 + HL4;
+            //labelNumberHL.Text = HL.ToString();
 
             //XM TRUNG SON
             TS1 = checkCount(FormMain.isCheckedTS1);

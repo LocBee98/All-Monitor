@@ -238,6 +238,12 @@ namespace MonitorVersion1
 
         private void FormMain_Load(object sender, EventArgs e)
         {
+            //Load Avatar
+            string[] path = new string[2];
+            ReadWriteTxt _getAvatar = new ReadWriteTxt();
+            path = _getAvatar.readFile(@"txtSetting\pathAvatar.txt");
+            picAvatar.Image = new Bitmap(path[1]);
+            
 
             #region Load Station Form
             // Open Form Monitor
@@ -1012,11 +1018,11 @@ namespace MonitorVersion1
 
             //XM HOANG LONG
             //bool isHL = FormMain.isCheckedHL1 && FormMain.isCheckedHL2 && FormMain.isCheckedHL3 && FormMain.isCheckedHL4;
-            //runCheck(isHL, panelHL);
-            txbNotyfiyShow(isCheckedHL1, "XM Hoàng Long - Nung Clinker", listNoti);
-            txbNotyfiyShow(isCheckedHL2, "XM Hoàng Long - Ghi Lạnh", listNoti);
-            txbNotyfiyShow(isCheckedHL3, "XM Hoàng Long - Nghiền Than", listNoti);
-            txbNotyfiyShow(isCheckedHL4, "XM Hoàng Long - Nghiền Xi", listNoti);
+            ////runCheck(isHL, panelHL);
+            //txbNotyfiyShow(isCheckedHL1, "XM Hoàng Long - Nung Clinker", listNoti);
+            //txbNotyfiyShow(isCheckedHL2, "XM Hoàng Long - Ghi Lạnh", listNoti);
+            //txbNotyfiyShow(isCheckedHL3, "XM Hoàng Long - Nghiền Than", listNoti);
+            //txbNotyfiyShow(isCheckedHL4, "XM Hoàng Long - Nghiền Xi", listNoti);
 
             //XM TRUNG SON
             txbNotyfiyShow(isCheckedTS1, "XM Trung Sơn - Nung", listNoti);
@@ -1173,7 +1179,36 @@ namespace MonitorVersion1
 
         #endregion
 
-        
+        #region Change Avatar
+        // open file dialog   
+        private void changeAvatar_Click(object sender, EventArgs e)
+        {
+            // open file dialog   
+            OpenFileDialog open = new OpenFileDialog();
+            // image filters  
+            open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                // display image in picture box  
+                picAvatar.Image = new Bitmap(open.FileName);
+
+            }
+            string[] pathAvatar = { "path:", open.FileName };
+            ReadWriteTxt _writeFile = new ReadWriteTxt();
+            _writeFile.writeFile(@"txtSetting\pathAvatar.txt", pathAvatar);
+        }
+        #endregion
+
+        private void changeAvatar_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.changeAvatar.BackColor = Color.FromArgb(229, 76, 60);
+        }
+
+        private void changeAvatar_MouseLeave(object sender, EventArgs e)
+        {
+            this.changeAvatar.BackColor = Color.FromArgb(139, 194, 64);
+
+        }
     }
 }
 

@@ -69,7 +69,8 @@ namespace MonitorVersion1
             this.label33 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.customPictureBox1 = new MonitorVersion1.CustemItems.customPictureBox();
+            this.changeAvatar = new MonitorVersion1.CustemItems.CustomButton();
+            this.picAvatar = new MonitorVersion1.CustemItems.customPictureBox();
             this.panelClock = new MonitorVersion1.CustemItems.CustomPanel();
             this.lbClock = new System.Windows.Forms.Label();
             this.btnCloseForm = new MonitorVersion1.CustemItems.CustomButton();
@@ -92,7 +93,7 @@ namespace MonitorVersion1
             this.panelNuocNgam.SuspendLayout();
             this.panelNuoc.SuspendLayout();
             this.panelKhi.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.customPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.panelClock.SuspendLayout();
             this.customPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -146,9 +147,9 @@ namespace MonitorVersion1
             this.panelTabbar.Controls.Add(this.panel7);
             this.panelTabbar.Controls.Add(this.panel5);
             this.panelTabbar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelTabbar.Location = new System.Drawing.Point(0, 176);
+            this.panelTabbar.Location = new System.Drawing.Point(0, 229);
             this.panelTabbar.Name = "panelTabbar";
-            this.panelTabbar.Size = new System.Drawing.Size(256, 760);
+            this.panelTabbar.Size = new System.Drawing.Size(256, 707);
             this.panelTabbar.TabIndex = 1;
             // 
             // panel7
@@ -159,14 +160,14 @@ namespace MonitorVersion1
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(256, 699);
+            this.panel7.Size = new System.Drawing.Size(256, 646);
             this.panel7.TabIndex = 1;
             // 
             // panel5
             // 
             this.panel5.Controls.Add(this.Copyright);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 699);
+            this.panel5.Location = new System.Drawing.Point(0, 646);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(256, 61);
             this.panel5.TabIndex = 0;
@@ -184,11 +185,12 @@ namespace MonitorVersion1
             // 
             // panelLogo
             // 
-            this.panelLogo.Controls.Add(this.customPictureBox1);
+            this.panelLogo.Controls.Add(this.changeAvatar);
+            this.panelLogo.Controls.Add(this.picAvatar);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(256, 176);
+            this.panelLogo.Size = new System.Drawing.Size(256, 229);
             this.panelLogo.TabIndex = 0;
             // 
             // panel4
@@ -521,21 +523,41 @@ namespace MonitorVersion1
             this.label4.TabIndex = 0;
             this.label4.Text = "KHÍ THẢI";
             // 
-            // customPictureBox1
+            // changeAvatar
             // 
-            this.customPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            this.customPictureBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(194)))), ((int)(((byte)(105)))));
-            this.customPictureBox1.BorderColor2 = System.Drawing.Color.Orange;
-            this.customPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            this.customPictureBox1.BorderSize = 2;
-            this.customPictureBox1.GradientAngle = 50F;
-            this.customPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("customPictureBox1.Image")));
-            this.customPictureBox1.Location = new System.Drawing.Point(46, 10);
-            this.customPictureBox1.Name = "customPictureBox1";
-            this.customPictureBox1.Size = new System.Drawing.Size(155, 155);
-            this.customPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.customPictureBox1.TabIndex = 0;
-            this.customPictureBox1.TabStop = false;
+            this.changeAvatar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(194)))), ((int)(((byte)(64)))));
+            this.changeAvatar.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(194)))), ((int)(((byte)(64)))));
+            this.changeAvatar.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.changeAvatar.BorderRadius = 5;
+            this.changeAvatar.BorderSize = 0;
+            this.changeAvatar.FlatAppearance.BorderSize = 0;
+            this.changeAvatar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.changeAvatar.ForeColor = System.Drawing.Color.White;
+            this.changeAvatar.Location = new System.Drawing.Point(91, 197);
+            this.changeAvatar.Name = "changeAvatar";
+            this.changeAvatar.Size = new System.Drawing.Size(68, 10);
+            this.changeAvatar.TabIndex = 1;
+            this.changeAvatar.TextColor = System.Drawing.Color.White;
+            this.changeAvatar.UseVisualStyleBackColor = false;
+            this.changeAvatar.Click += new System.EventHandler(this.changeAvatar_Click);
+            this.changeAvatar.MouseLeave += new System.EventHandler(this.changeAvatar_MouseLeave);
+            this.changeAvatar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.changeAvatar_MouseMove);
+            // 
+            // picAvatar
+            // 
+            this.picAvatar.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.picAvatar.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(194)))), ((int)(((byte)(105)))));
+            this.picAvatar.BorderColor2 = System.Drawing.Color.Orange;
+            this.picAvatar.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.picAvatar.BorderSize = 2;
+            this.picAvatar.GradientAngle = 50F;
+            this.picAvatar.Image = ((System.Drawing.Image)(resources.GetObject("picAvatar.Image")));
+            this.picAvatar.Location = new System.Drawing.Point(34, 10);
+            this.picAvatar.Name = "picAvatar";
+            this.picAvatar.Size = new System.Drawing.Size(180, 180);
+            this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picAvatar.TabIndex = 0;
+            this.picAvatar.TabStop = false;
             // 
             // panelClock
             // 
@@ -750,7 +772,7 @@ namespace MonitorVersion1
             this.panelNuoc.PerformLayout();
             this.panelKhi.ResumeLayout(false);
             this.panelKhi.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.customPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
             this.panelClock.ResumeLayout(false);
             this.panelClock.PerformLayout();
             this.customPanel1.ResumeLayout(false);
@@ -771,7 +793,7 @@ namespace MonitorVersion1
         private System.Windows.Forms.Panel panelTabbar;
         private CustemItems.CustomButton btnMonitor;
         private System.Windows.Forms.Panel panelLogo;
-        private CustemItems.customPictureBox customPictureBox1;
+        private CustemItems.customPictureBox picAvatar;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label lbTitle;
         private CustemItems.CustomButton btnAlarm;
@@ -809,6 +831,7 @@ namespace MonitorVersion1
         private CustemItems.CustomButton btnClearNoti;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer timer4;
+        private CustemItems.CustomButton changeAvatar;
     }
 }
 
