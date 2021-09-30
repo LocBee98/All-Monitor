@@ -48,34 +48,18 @@ namespace MonitorVersion1
 
 
         #endregion
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void AlarmForm_Load(object sender, EventArgs e)
         {
-            //getSetting();
-            //Off Focus
-            //txbEmail1.TabStop = false;
-            //txbEmail2.TabStop = false;
-            //txbEmail3.TabStop = false;
+            
             try
             {
                 getSetting();
             }
-            catch
+            catch (Exception ex)
             {
-                try
-                {
-                    string[] contents = { "1. User email", txbEmail1.Texts, txbEmail2.Texts, txbEmail3.Texts, "2. Enable", btnEnable1.Checked.ToString(), btnEnable2.Checked.ToString(), btnEnable3.Checked.ToString(), "3. Freq", cmbFreq.Text };
-                    ReadWriteTxt _writeFile = new ReadWriteTxt();
-                    _writeFile.writeFile(@"txtSetting\appSetting.txt", contents);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
+                MessageBox.Show(ex.Message, "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -83,7 +67,6 @@ namespace MonitorVersion1
         {
             string[] preSetting = new string[12];
             ReadWriteTxt _getFile = new ReadWriteTxt();
-            //preSetting = _getFile.readFile(@"D:\VIETMAPENV\CODER\All Monitor Version 1\MonitorVersion1\appSetting.txt");
             preSetting = _getFile.readFile(@"txtSetting\appSetting.txt");
 
             //Email
@@ -117,20 +100,7 @@ namespace MonitorVersion1
         private void btnCancel_Click(object sender, EventArgs e)
         {
             getSetting();
-            //Off Focus
-            //txbEmail1.TabStop = false;
-            //txbEmail2.TabStop = false;
-            //txbEmail3.TabStop = false;
+            
         }
-
-
-
-        ////Acecook
-        //ftp ftpAce = new ftp(@"ftp://113.160.222.47", "AcecookVN", "AcecookVN@2020!");
-
-        //isCheckedAcecook1 = supportCheckAll(rootAcecook1, _preNameAce1, ftpAce);
-        //isCheckedAcecook1 = supportCheckAll(rootAcecook2, _preNameAce2, ftpAce);
-        //isCheckedAcecook1 = supportCheckAll(rootAcecook3, _preNameAce3, ftpAce);
-
     }
 }

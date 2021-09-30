@@ -6,5 +6,6 @@ Sử dụng FTP protocol truy cập vào FTP server của các sở TNMT để k
 # Tính năng: 
 Giám sát trực tuyến, thông báo trên giao diện khi mất tín hiệu truyền dẫn, cảnh báo qua email.
 
-# Vì lý do bảo mật dữ liệu, file FormMain.cs đã bị xóa.
+# Bảo mật
+Vì lý do bảo mật dữ liệu, các ftp server của các sở và công ty đã được ẩn.
 # Hình ảnh thực tế trong folder /Pictures App
