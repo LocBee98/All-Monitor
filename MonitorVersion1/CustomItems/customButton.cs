@@ -8,7 +8,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.ComponentModel;
 
-namespace MonitorVersion1.CustemItems
+namespace AppMonitor.CustemItems
 {
     class CustomButton : Button
 

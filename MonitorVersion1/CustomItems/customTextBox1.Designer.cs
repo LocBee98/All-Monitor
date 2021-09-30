@@ -1,5 +1,5 @@
 ﻿
-namespace MonitorVersion1.CustomItems
+namespace AppMonitor.CustomItems
 {
     partial class customTextBox1
     {

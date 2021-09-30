@@ -9,7 +9,7 @@ using System.Drawing;
 using System.ComponentModel;
 using System.Drawing.Design;
 
-namespace MonitorVersion1.CustomItems
+namespace AppMonitor.CustomItems
 {
 
     [DefaultEvent("OnSelectedIndexChanged")]

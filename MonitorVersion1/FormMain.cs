@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 using System.Timers;
-namespace MonitorVersion1
+namespace AppMonitor
 {
     public partial class FormMain : Form
     {

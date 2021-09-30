@@ -8,7 +8,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.ComponentModel;
 
-namespace MonitorVersion1.CustemItems
+namespace AppMonitor.CustemItems
 {
     class CustomPanel : Panel
     {

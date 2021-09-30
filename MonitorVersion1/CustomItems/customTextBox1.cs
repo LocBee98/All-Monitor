@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MonitorVersion1.CustomItems
+namespace AppMonitor.CustomItems
 {
     public partial class customTextBox1 : UserControl
     {

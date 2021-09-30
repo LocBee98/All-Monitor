@@ -8,7 +8,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.ComponentModel;
 
-namespace MonitorVersion1.CustomItems
+namespace AppMonitor.CustomItems
 {
     class customToggleButton : CheckBox
     {

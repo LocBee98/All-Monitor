@@ -1,5 +1,5 @@
 ﻿
-namespace MonitorVersion1
+namespace AppMonitor
 {
     partial class FormMain
     {
@@ -47,38 +47,38 @@ namespace MonitorVersion1
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.timer4 = new System.Windows.Forms.Timer(this.components);
-            this.panelNotify = new MonitorVersion1.CustemItems.CustomPanel();
+            this.panelNotify = new AppMonitor.CustemItems.CustomPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnClearNoti = new MonitorVersion1.CustemItems.CustomButton();
+            this.btnClearNoti = new AppMonitor.CustemItems.CustomButton();
             this.txbNotify = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.panelChildForm = new MonitorVersion1.CustemItems.CustomPanel();
-            this.panelNuocNgam = new MonitorVersion1.CustemItems.CustomPanel();
+            this.panelChildForm = new AppMonitor.CustemItems.CustomPanel();
+            this.panelNuocNgam = new AppMonitor.CustemItems.CustomPanel();
             this.labelNuocNgam = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.panelNuoc = new MonitorVersion1.CustemItems.CustomPanel();
+            this.panelNuoc = new AppMonitor.CustemItems.CustomPanel();
             this.labelNuoc = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.panelKhi = new MonitorVersion1.CustemItems.CustomPanel();
+            this.panelKhi = new AppMonitor.CustemItems.CustomPanel();
             this.labelKhi = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.changeAvatar = new MonitorVersion1.CustemItems.CustomButton();
-            this.picAvatar = new MonitorVersion1.CustemItems.customPictureBox();
-            this.panelClock = new MonitorVersion1.CustemItems.CustomPanel();
+            this.changeAvatar = new AppMonitor.CustemItems.CustomButton();
+            this.picAvatar = new AppMonitor.CustemItems.customPictureBox();
+            this.panelClock = new AppMonitor.CustemItems.CustomPanel();
             this.lbClock = new System.Windows.Forms.Label();
-            this.btnCloseForm = new MonitorVersion1.CustemItems.CustomButton();
-            this.btnMinimize = new MonitorVersion1.CustemItems.CustomButton();
-            this.btnNotify = new MonitorVersion1.CustemItems.CustomButton();
-            this.btnAlarm = new MonitorVersion1.CustemItems.CustomButton();
-            this.btnMonitor = new MonitorVersion1.CustemItems.CustomButton();
-            this.customPanel1 = new MonitorVersion1.CustemItems.CustomPanel();
+            this.btnCloseForm = new AppMonitor.CustemItems.CustomButton();
+            this.btnMinimize = new AppMonitor.CustemItems.CustomButton();
+            this.btnNotify = new AppMonitor.CustemItems.CustomButton();
+            this.btnAlarm = new AppMonitor.CustemItems.CustomButton();
+            this.btnMonitor = new AppMonitor.CustemItems.CustomButton();
+            this.customPanel1 = new AppMonitor.CustemItems.CustomPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();

@@ -1,5 +1,5 @@
 ﻿
-namespace MonitorVersion1
+namespace AppMonitor
 {
     public class ReadWriteTxt
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace MonitorVersion1
+namespace AppMonitor
 {
     partial class AlarmForm
     {
@@ -29,22 +29,22 @@ namespace MonitorVersion1
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCancel = new MonitorVersion1.CustemItems.CustomButton();
-            this.btnEnable3 = new MonitorVersion1.CustomItems.customToggleButton();
-            this.customPanel4 = new MonitorVersion1.CustemItems.CustomPanel();
+            this.btnCancel = new AppMonitor.CustemItems.CustomButton();
+            this.btnEnable3 = new AppMonitor.CustomItems.customToggleButton();
+            this.customPanel4 = new AppMonitor.CustemItems.CustomPanel();
             this.label5 = new System.Windows.Forms.Label();
-            this.customPanel3 = new MonitorVersion1.CustemItems.CustomPanel();
+            this.customPanel3 = new AppMonitor.CustemItems.CustomPanel();
             this.label3 = new System.Windows.Forms.Label();
-            this.txbEmail3 = new MonitorVersion1.CustomItems.customTextBox1();
-            this.btnEnable2 = new MonitorVersion1.CustomItems.customToggleButton();
-            this.customPanel2 = new MonitorVersion1.CustemItems.CustomPanel();
+            this.txbEmail3 = new AppMonitor.CustomItems.customTextBox1();
+            this.btnEnable2 = new AppMonitor.CustomItems.customToggleButton();
+            this.customPanel2 = new AppMonitor.CustemItems.CustomPanel();
             this.label2 = new System.Windows.Forms.Label();
-            this.txbEmail2 = new MonitorVersion1.CustomItems.customTextBox1();
-            this.btnConfirm = new MonitorVersion1.CustemItems.CustomButton();
-            this.btnEnable1 = new MonitorVersion1.CustomItems.customToggleButton();
-            this.customPanel1 = new MonitorVersion1.CustemItems.CustomPanel();
+            this.txbEmail2 = new AppMonitor.CustomItems.customTextBox1();
+            this.btnConfirm = new AppMonitor.CustemItems.CustomButton();
+            this.btnEnable1 = new AppMonitor.CustomItems.customToggleButton();
+            this.customPanel1 = new AppMonitor.CustemItems.CustomPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.txbEmail1 = new MonitorVersion1.CustomItems.customTextBox1();
+            this.txbEmail1 = new AppMonitor.CustomItems.customTextBox1();
             this.cmbFreq = new System.Windows.Forms.ComboBox();
             this.customPanel4.SuspendLayout();
             this.customPanel3.SuspendLayout();

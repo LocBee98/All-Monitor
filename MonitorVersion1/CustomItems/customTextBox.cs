@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MonitorVersion1.CustemItems
+namespace AppMonitor.CustemItems
 {
     public partial class customTextBox : UserControl
     {
